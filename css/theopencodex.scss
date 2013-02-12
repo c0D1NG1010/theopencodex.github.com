@@ -1,0 +1,57 @@
+// Variables/Mixins
+$link-color: #2ea75c;
+$link-color-dark: #1a542f;
+// Typography
+a {
+	color: $link-color;
+	font-weight: bold;
+	text-decoration: none;
+	&:hover {
+		color: $link-color-dark;
+		text-decoration: underline;
+	}
+}
+// Core
+div.wrapper {
+	width: 95%;
+	padding: 2%;
+	margin: 0 auto;
+}
+// Header
+#main-header {
+	.logo-main {
+		a {
+			color: $link-color;
+			text-decoration: none;
+			&:hover {
+				color: $link-color-dark;
+			}
+		}
+	}
+}
+// Header/Navigation
+#main-header {
+	margin-bottom: 35px;
+	nav#main-nav {
+		ul {
+			li {
+				margin-right: 25px;
+				display: inline-block;
+				a {
+					font-size: 1.1em;
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}
+// Footer
+#main-footer {
+	margin-top: 50px;
+	.footer-text {
+		text-align: center;
+		font-size: 0.9em;
+	}
+}
