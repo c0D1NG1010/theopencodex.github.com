@@ -1,1 +1,18 @@
-a{color:#2a5eb0;font-weight:bold;text-decoration:none}a:hover{color:#0e3572;text-decoration:underline}div.wrapper{width:95%;padding:2%;margin:0 auto}@media only screen and (max-width: 860px){#main-nav ul{display:none !important}#main-nav select{display:block !important;margin:15px auto}}#main-header .logo-main a{color:#2a5eb0;text-decoration:none}#main-header .logo-main a:hover{color:#0e3572}#main-header{margin-bottom:35px}#main-header #main-nav ul li{margin-right:25px;display:inline-block}#main-header #main-nav ul li a{font-size:1.1em}#main-header #main-nav ul li a:hover{text-decoration:none}#main-header #main-nav select{display:none}.content#allposts ul#allpostslist li{margin-bottom:5px}.content#allposts ul#allpostslist li a{font-size:1.1em}#main-footer{margin-top:50px}#main-footer .footer-text{text-align:center;font-size:0.9em}
+a{color:#15c;font-weight:700;text-decoration:none}
+a:hover{color:#15c;text-decoration:underline}
+div.wrapper{width:95%;margin:0 auto;padding:2%}
+#main-header .logo-main a{color:#15c;text-decoration:none}
+#main-header .logo-main a:hover{color:#15c}
+#main-header{margin-bottom:35px}
+#main-header #main-nav ul li{margin-right:25px;display:inline-block}
+#main-header #main-nav ul li a:hover{text-decoration:none}
+#main-header #main-nav select{display:none}
+.content#allposts ul#allpostslist li{margin-bottom:5px}
+#main-footer{margin-top:50px}
+#main-footer .footer-text{text-align:center;font-size:.9em}
+#footer{height:200px}
+#main-header #main-nav ul li a,.content#allposts ul#allpostslist li a{font-size:1.1em}
+@media only screen and max-width 860px {
+#main-nav ul{display:none!important}
+#main-nav select{display:block!important;margin:15px auto}
+}

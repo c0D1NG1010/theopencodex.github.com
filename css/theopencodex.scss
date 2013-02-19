@@ -1,13 +1,12 @@
 // Variables/Mixins
-$link-color: #2a5eb0;
-$link-color-dark: #0e3572;
+$link-color: #15c;
 // Typography
 a {
 	color: $link-color;
 	font-weight: bold;
 	text-decoration: none;
 	&:hover {
-		color: $link-color-dark;
+		color: $link-color;
 		text-decoration: underline;
 	}
 }
@@ -44,7 +43,7 @@ div.wrapper {
 			color: $link-color;
 			text-decoration: none;
 			&:hover {
-				color: $link-color-dark;
+				color: $link-color;
 			}
 		}
 	}
