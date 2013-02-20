@@ -1,5 +1,5 @@
 //All the styling for the blog
-article #postexcerpt {
+article .postexcerpt {
   background:whiteSmoke;
   width:70%
   border: 2px solid #B0B0B0;
