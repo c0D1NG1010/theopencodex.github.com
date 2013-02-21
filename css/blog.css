@@ -1,4 +1,4 @@
-//All the styling for the blog
+/*All the styling for the blog*/
 article.postexcerpt {
   background:whiteSmoke;
   width:70%;
@@ -6,9 +6,9 @@ article.postexcerpt {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 0px 10px 15px rgba(20, 20, 20, 0.35);
-  -moz-box-shadow:    0px 10px 15px rgba(20, 20, 20, 0.35);
-  box-shadow:         0px 10px 15px rgba(20, 20, 20, 0.35);
+  -webkit-box-shadow: 0px 7px 15px rgba(20, 20, 20, 0.2);
+  -moz-box-shadow:    0px 7px 15px rgba(20, 20, 20, 0.2);
+  box-shadow:         0px 7px 15px rgba(20, 20, 20, 0.2);
   margin-bottom:15px;
   padding:10px 15px;
 }
