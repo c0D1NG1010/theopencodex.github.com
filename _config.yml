@@ -1,4 +1,4 @@
 auto: true
 server: true
-exclude: README.markdown, .gitignore
+exclude: README.markdown, .gitignore, theopencoex.scss
 pygments: true
